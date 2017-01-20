@@ -6,7 +6,8 @@ from traceback import format_exc
 def google(query):
     import requests
 
-    google_api_key = 'AIzaSyDnbC_-OlordxU7xfpAPw2pBMkXjm6uwT4'
+    # google_api_key = 'AIzaSyDnbC_-OlordxU7xfpAPw2pBMkXjm6uwT4'
+    google_api_key = 'AIzaSyD3Jvo-c569LNhyVNoabvJfFo4b2AD88mA'
     google_search_api = "https://www.googleapis.com/customsearch/v1?key={key}&" \
                         "cx=017576662512468239146:omuauf_lfve&q={query}".format(
         key=google_api_key, query=query)

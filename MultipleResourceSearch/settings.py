@@ -23,7 +23,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 SECRET_KEY = '++t+w*_^+%3c!l=0ss8+a5d@80#@%*8q1-s54oz&6d^4f@=+(&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -35,8 +35,6 @@ INSTALLED_APPS = (
     # 'django.contrib.auth',
     # 'django.contrib.contenttypes',
     'search_app',
-        'django_extensions',
-
     # 'django.contrib.sessions',
     # 'django.contrib.messages',
     # 'django.contrib.staticfiles',
