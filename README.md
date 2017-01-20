@@ -14,4 +14,4 @@ Resource sites are :
 
 Tips:
 
-Pass asynch=1 in Get request as a parameter to run the search in asynchronous mode.
+Pass async=1 in Get request as a parameter to run the search in asynchronous mode.
